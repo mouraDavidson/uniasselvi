@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    
+        height: 100hv;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+
+    }
+
+.container{
+    height: 80hv;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}    
+
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #5ecced;
+    padding: 4rem;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    
+
+}
+
+.input-group-1{
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 1rem 0;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+.input-box-dados{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1.1rem;
+    border-radius: 300px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    
+}
+.input-group-2{
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 1rem 0;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.input-box-endereco{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1.1rem;
+    border-radius: 300px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+
+.input-group-3{
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 1rem 0;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-box-cargo{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1.1rem;
+    border-radius: 300px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+
+}
+
+.input{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+
+}
