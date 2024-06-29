@@ -116,7 +116,6 @@
                             <input class="input" id="dtAdmissao" type="date" name="dtAdmissao" required>
                             <br></br>
                             <input class="input" type="submit" name="Gravar" value="Salvar" onclick="salvarNoBanco();return false">    
-
                             <!-- Abaixo tem o script do jquery caso necessário utilizar-->
                             <!--script> $('#dtAdmissao').mask('00/00/0000');</script-->
                         </div>

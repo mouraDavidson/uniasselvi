@@ -21,7 +21,6 @@
             <li>
                 <a href="cadastro.php">Cadastrado de Funcionários</a>
             </li>
-            
         </ul>
     </nav>
     <br><br>

@@ -50,7 +50,6 @@ if(mysqli_query($link,$sql)){
     echo "Erro(Não foi possível inserir registro na tabela) $sql.".mysqli_error($link);
 }*/
  
-
 //Código do cadastro total do insert:
 //Realiza inserção do novo registro na tabela do banco de dados 
 $sql = "INSERT INTO FUNCIONARIO(NOME,RG,CPF,TELEFONE,RUA,BAIRRO,NUMERO,COMPLEMENTO,
