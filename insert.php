@@ -4,7 +4,7 @@ $link =mysqli_connect("localhost","root","","uniasselvi");
 
 
 
-// Valida a conexão com oo banco de dados
+// Valida a conexão com o banco de dados
 if($link===false){
     die("ERRO: Não foi possível conectar ao BD.".mysqli_connect_error());
 }
@@ -58,9 +58,18 @@ CIDADE,ESTADO,CARGO,DESCRICAOCARGO,SETOR,SALARIO,CARGAHORARIA,DATAADMISSAO)
 VALUES('$nome','$rg','$cpf','$telefone','$rua','$bairro','$numero','$complemento',
 '$cidade','$estado','$cargo','$descCargo','$setor','$salario','$cargaHoraria','$dtAdmissao')";
 if(mysqli_query($link,$sql)){
-    echo "Gravação efetuada com sucesso!"; //aqui poderia ser incluído um código para redirect
+    echo "
+        <script>
+            alert('Gravação efetuada com sucesso!');
+            window.location.href='cadastro.php';
+        </script>";
 }else{
-    echo "Erro(Não foi possível inserir registro na tabela) $sql.".mysqli_error($link);
+    echo 
+        "<script>
+            alert('Erro não foi possível inserir registro na tabela!');
+            window.location.href='cadastro.php';
+        </script>";
+    " $sql.".mysqli_error($link);
 }
 
 // Close connection

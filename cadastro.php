@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cadastro Funcionário</title>
 <link rel="stylesheet" type="text/css" href="css/cadastro.css" media="screen" />
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
 <script src="lib/bootstrap/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
@@ -91,7 +92,7 @@
 
                         <div class="input-box-cargo">
                             <label for="descCargo">DESCRIÇÃO</label>
-                            <textarea class="input" style="resize: both" autofocus="autofocus" name="descCargo" cols="23" rows="2" placeholder="Digite a Descrição do Cargo" required></textarea></textarea>
+                            <textarea class="input" style="resize: both" name="descCargo" cols="23" rows="2" placeholder="Digite a Descrição do Cargo" required></textarea></textarea>
                         </div>
 
                         <div class="input-box-cargo">

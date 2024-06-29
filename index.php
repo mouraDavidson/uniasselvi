@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
     <script src="lib/bootstrap/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>SA Artefatos de Cimento</title>
 </head>
-    
+
 <body>
 <!--form action="/processar-formulario" method="post"-->
+<div class="img">
 <img src="./img/logo blocos e madeiras.png"></img>
+</div>
+<div class="form">
 <form>
     <h3>Login</h3>
     <input type="text" placeholder="Login" id="login"   required>
@@ -33,6 +36,7 @@
         }
     }
 </script>
+</div>
 </body>
 </html>
 
